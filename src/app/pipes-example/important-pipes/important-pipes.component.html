@@ -2,12 +2,22 @@
     <h2>important pipes</h2>
     <h3>{{name | uppercase}}</h3>
     <h3>{{name | lowercase}}</h3>
+    <h1> Custom Pipes</h1>
+    <h2>{{name | upper}}</h2>
+    <h2>{{todayDate | mydate}}</h2>
     <h3>{{description | slice : 6}}</h3>
     <hr>
     <h2>Number, Percentage, Currency</h2>
     <h3>{{itemPrice | number: '2.1-2'}}</h3>
     <h3>{{itemPercent | percent: '3.1-2'}}</h3>
     <h3>{{amount | currency : 'INR':true }}</h3>
+    <h3>{{amount | currency : 'CAD':true : "6.1-1"}}</h3>
+
+    <h1>Faren to celcius converter</h1>
+    <h2>{{temp | farentocelcius}}</h2>
+    
+
+
 
 
 </div>

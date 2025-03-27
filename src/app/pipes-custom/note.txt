@@ -1,0 +1,7 @@
+5 steps to create pipes
+
+1. create a class that implements PipeTransform interface
+2. override transform method to define the logic of pipes
+3. @Pipe decorator to provide meta data lile name
+4. declare the class in app module
+5. use the pip with given name

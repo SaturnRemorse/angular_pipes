@@ -13,6 +13,8 @@ export class ImportantPipesComponent {
   itemPrice = 1234.5678;
   itemPercent = 0.78;
   amount = 45000;
+  todayDate = new Date();
+  temp = 32;
 
 }
 
