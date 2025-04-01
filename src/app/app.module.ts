@@ -10,6 +10,7 @@ import { MyDatePipe } from './pipes-custom/myDate.pipe';
 import { FarenToCelciusPipe } from './pipes-custom/farenToCelciusConverter.pipe';
 import { FarenToCelciusComponent } from './pipes-example/faren-to-celcius/faren-to-celcius.component';
 import { TempConverter } from './pipes-custom/tempConverter.pipe';
+import { AsyncPipeComponent } from './pipes-example/async-pipe/async-pipe.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TempConverter } from './pipes-custom/tempConverter.pipe';
     MyDatePipe,
     FarenToCelciusPipe,
     FarenToCelciusComponent,
-    TempConverter
+    TempConverter,
+    AsyncPipeComponent
   ],
   imports: [
     BrowserModule,
